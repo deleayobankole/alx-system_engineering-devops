@@ -12,3 +12,8 @@ groups
 4. TO CHANGE FILE OWNER
 chown <username> <filename>
 chown betty hello
+
+5. TO CREATE AN EMPTY FILE
+touch <filename>
+
+6.  .
