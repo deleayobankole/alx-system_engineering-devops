@@ -16,4 +16,8 @@ chown betty hello
 5. TO CREATE AN EMPTY FILE
 touch <filename>
 
-6.  .
+6. COMMAND FOR MULTIPLE PERMISSIONS
+chmod 114 hello
+chmod u+x,g+x,o+r hello
+
+7.  .
