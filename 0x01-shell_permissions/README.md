@@ -20,4 +20,8 @@ touch <filename>
 chmod 114 hello
 chmod u+x,g+x,o+r hello
 
-7.  .
+7. EXECUTION PERMISSION FOR EVERYBODY
+chmod 111 hello
+chmod ugo+x hello
+
+
