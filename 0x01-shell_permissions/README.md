@@ -57,3 +57,11 @@ useradd vincent
 groupadd staff
 #assign users and groups
 chown -R vincent:staff ./
+
+14. CHANGE OWNER AND GROUP FOR SYSLINK
+#Createe the syslink
+ln -s <source> <destination>
+ln -s hello _hello
+
+#create the user and group
+chown -h vincent:staff _hello
