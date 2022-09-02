@@ -24,4 +24,6 @@ chmod u+x,g+x,o+r hello
 chmod 111 hello
 chmod ugo+x hello
 
-
+8. -rwxr-x-wx
+(rwx=7; r-x=5; -wx=3)
+chmod 753 hello
