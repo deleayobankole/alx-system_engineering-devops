@@ -49,3 +49,11 @@ groupadd school
 
 #change group owner of the file
 chgrp school hello
+
+13. CHANGE OWNER AND GROUP FOR WORKING DIRECTORY
+#Create user
+useradd vincent
+#create staff
+groupadd staff
+#assign users and groups
+chown -R vincent:staff ./
