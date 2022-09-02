@@ -27,3 +27,8 @@ chmod ugo+x hello
 8. -rwxr-x-wx
 (rwx=7; r-x=5; -wx=3)
 chmod 753 hello
+
+9. CREATE MIRROR PERMISSIONS
+COMMAND: chmod --reference=<ref_file> <mirror_file>
+chmod --reference=hello olleh #this works
+chmod --reference olleh hello #this is what alx wants
