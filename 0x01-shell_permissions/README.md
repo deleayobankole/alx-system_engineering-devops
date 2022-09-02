@@ -9,4 +9,6 @@ su useradd betty
 3. TO KNOW THE GROUPS
 groups
 
-4.  
+4. TO CHANGE FILE OWNER
+chown <username> <filename>
+chown betty hello
