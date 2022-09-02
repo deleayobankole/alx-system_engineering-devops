@@ -37,3 +37,9 @@ chmod --reference olleh hello #this is what alx wants
 #Create a script that adds execute permission to all subdirectories of the current directory
 # for the owner, the group owner and all other users. Regular files should not be changed.
 chmod -R a+X ./
+
+11. CREATE DIRECTORY WITH PERMISSIONS
+mkdir -m <permission> <dir_name>
+mkdir -m 751 my_dir
+
+12.
