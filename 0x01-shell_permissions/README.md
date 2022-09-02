@@ -32,3 +32,8 @@ chmod 753 hello
 COMMAND: chmod --reference=<ref_file> <mirror_file>
 chmod --reference=hello olleh #this works
 chmod --reference olleh hello #this is what alx wants
+
+10. PERMISSION FOR DIRECTORIES
+#Create a script that adds execute permission to all subdirectories of the current directory
+# for the owner, the group owner and all other users. Regular files should not be changed.
+chmod -R a+X ./
