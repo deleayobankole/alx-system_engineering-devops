@@ -42,4 +42,10 @@ chmod -R a+X ./
 mkdir -m <permission> <dir_name>
 mkdir -m 751 my_dir
 
-12.
+12. CHANGE GROUP OWNERSHIP
+#Create the group
+groupadd <group_name>
+groupadd school
+
+#change group owner of the file
+chgrp school hello
