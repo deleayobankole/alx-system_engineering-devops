@@ -66,4 +66,7 @@ tr 'Ac'  'Ze'
 
 #20. Without C, you would live in hiago
 tr -d Cc
+
+#21. esreveR
+rev
  
