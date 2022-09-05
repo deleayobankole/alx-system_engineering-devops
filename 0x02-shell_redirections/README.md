@@ -76,5 +76,8 @@ cut -f 1,6 -d ':' /etc/passwd | sort
 #23. Write a command that finds all empty files and directories in the current directory and all sub-directories.
 find . -empty -printf "%f\n"
 
-#24. 
- 
+#24. Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+find . -type f -name "*.gif" -printf "%f\n" | rev | cut -c 5- | rev | sort -f
+
+#25. Create a script that decodes acrostics that use the first letter of each line. 
+echo "$(cut -c 1 | tr -d '\n')"
