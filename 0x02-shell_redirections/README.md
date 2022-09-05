@@ -31,5 +31,6 @@ ls -la > ls_cwd_content
 #append
 ls -la >> ls_cwd_content
 
-#9. 
+#9.Write a script that duplicates the last line of the file iacta
+tail -1 iacta >> iacta 
  
