@@ -81,3 +81,6 @@ find . -type f -name "*.gif" -printf "%f\n" | rev | cut -c 5- | rev | sort -f
 
 #25. Create a script that decodes acrostics that use the first letter of each line. 
 echo "$(cut -c 1 | tr -d '\n')"
+
+#26. Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+tail -n +2 | cut -f 1 | sort | uniq -c | sort -nr | head -11 | cut -c 9- 
