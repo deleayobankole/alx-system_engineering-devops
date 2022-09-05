@@ -39,4 +39,12 @@ find . -type f -name '*.js' -delete
 
 #11.Write a script that counts the number of directories and sub-directories in the current directory.
 find -mindepth 1 -type d | wc -l
+
+#12. Create a script that displays the 10 newest files in the current directory.
+ls --sort=time | head
+
+#13. Create a script that takes a list of words as input and prints only words that appear exactly once.
+sort | uniq -u
+
+#14. 
  
