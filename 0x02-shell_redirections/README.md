@@ -21,3 +21,8 @@ head /etc/passwd
 
 #6. Write a script that displays the third line of the file iacta
 head -3 iacta | tail -1
+
+#7. Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+echo -e "Best School"  >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
+
+#8. 
