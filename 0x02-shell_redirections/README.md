@@ -69,4 +69,7 @@ tr -d Cc
 
 #21. esreveR
 rev
+
+#22. Write a script that displays all users and their home directories, sorted by users.
+cut -f 1,6 -d ':' /etc/passwd | sort
  
