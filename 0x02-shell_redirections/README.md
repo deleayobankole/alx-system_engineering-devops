@@ -46,5 +46,6 @@ ls --sort=time | head
 #13. Create a script that takes a list of words as input and prints only words that appear exactly once.
 sort | uniq -u
 
-#14. 
+#14. Display lines containing the pattern “root” from the file /etc/passwd
+egrep 'root' /etc/passwd 
  
