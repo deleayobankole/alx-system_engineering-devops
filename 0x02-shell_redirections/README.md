@@ -25,4 +25,11 @@ head -3 iacta | tail -1
 #7. Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 echo -e "Best School"  >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
 
-#8. 
+#8.Write a script that writes into the file ls_cwd_content the result of the command ls -la. 
+#overwrite
+ls -la > ls_cwd_content 
+#append
+ls -la >> ls_cwd_content
+
+#9. 
+ 
