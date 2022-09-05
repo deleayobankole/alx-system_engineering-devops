@@ -63,4 +63,7 @@ egrep ^[[:alpha:]] /etc/ssh/sshd_config
 
 #19. Replace all characters A and c from input to Z and e respectively.
 tr 'Ac'  'Ze'  
+
+#20. Without C, you would live in hiago
+tr -d Cc
  
