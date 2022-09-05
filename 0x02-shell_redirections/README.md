@@ -18,3 +18,6 @@ tail /etc/passwd
 
 #5. Display the first 10 lines of /etc/passwd
 head /etc/passwd
+
+#6. Write a script that displays the third line of the file iacta
+head -3 iacta | tail -1
