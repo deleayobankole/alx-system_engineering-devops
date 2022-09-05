@@ -12,3 +12,6 @@ cat /etc/passwd
 
 #3. Display the content of /etc/passwd and /etc/hosts
 cat /etc/passwd /etc/hosts
+
+#4. Display the last 10 lines of /etc/passwd
+tail /etc/passwd
