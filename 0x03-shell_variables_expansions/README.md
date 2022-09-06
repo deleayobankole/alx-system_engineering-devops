@@ -26,3 +26,8 @@ set
 
 #6. Create a script that creates a new local variable. Name: BEST Value: School
 BEST="School"
+
+#7. Create a script that creates a new global variable.
+export BEST="School"
+
+#8. 
