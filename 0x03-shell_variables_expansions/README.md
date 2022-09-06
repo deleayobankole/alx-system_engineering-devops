@@ -21,4 +21,7 @@ echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
 #4. Create a script that lists environment variables.
 printenv
 
-#5.  
+#5. Create a script that lists all local variables and environment variables, and functions.
+set
+
+#6.   
