@@ -6,3 +6,6 @@ This README.md file houses all the scripts for the tasks in this project.
 #Name: ls
 #Value: rm *
 alias ls="rm *"
+
+#1. Create a script that prints hello user, where user is the current Linux user.
+echo "hello $USER"
