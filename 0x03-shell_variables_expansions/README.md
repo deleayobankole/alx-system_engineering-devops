@@ -50,3 +50,9 @@ printf "%.2f" $NUM | sort
 
 #14. Write a script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL. The script should display the number in base 16, followed by a new line
 print '%x\n' $DECIMAL
+
+#15. Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
+
+#16. 
+
