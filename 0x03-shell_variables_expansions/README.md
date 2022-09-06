@@ -18,4 +18,7 @@ export PATH=$PATH:/action
 echo $(printf $PATH | tr ":" "\n" | wc -w)
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
 
-#4. 
+#4. Create a script that lists environment variables.
+printenv
+
+#5.  
