@@ -30,4 +30,7 @@ BEST="School"
 #7. Create a script that creates a new global variable.
 export BEST="School"
 
-#8. 
+#8. Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+echo $(($TRUEKNOWLEDGE + 128))
+
+#9. 
